@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -8,6 +9,8 @@ int main(){
     char opc;
 
     inicio:
+
+    system("cls");
 
     cout << "Digite o valor da nota 1: ";
     cin >> n1;
